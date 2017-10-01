@@ -1,7 +1,13 @@
+/**
+ *  File that fits critical requirements 1.4.6 for customer
+ *  @author Collin
+ * */
+
 #include<iostream> 
+#include<string>
+
 int main(int argc, char** argv) { 
-  //this looks good collin, but you forgot comments
-  std::cout << "Collin is really really great!" << std::endl; 
-  //maybe turn that string into a variable?
+  std::string message = "Collin is really really great!";
+  std::cout << message << std::endl; 
   return 0; 
 }
